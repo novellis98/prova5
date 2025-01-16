@@ -1,0 +1,40 @@
+:root {
+    /* Blu */
+    --blue-darkest: #0d1b2a; /* Blu molto scuro */
+    --blue-darker: #1b263b; /* Blu scuro */
+    --blue-dark: #274c77; /* Blu profondo */
+    --blue: #468faf; /* Blu standard */
+    --blue-light: #a9d6e5; /* Blu chiaro */
+  
+    /* Celeste */
+    --cyan-darkest: #013a63; /* Celeste molto scuro */
+    --cyan-darker: #045a8d; /* Celeste scuro */
+    --cyan-dark: #057b9f; /* Celeste intenso */
+    --cyan: #56cfe1; /* Celeste standard */
+    --cyan-light: #d0f4f7; /* Celeste chiaro */
+}
+
+.nav {
+    --bs-nav-link-color: var(--cyan-dark);
+    --bs-nav-link-hover-color: var(--cyan-dark);
+}
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: var(--bs-nav-link-color);
+    text-decoration: none;
+    background: 0 0;
+    background-image: initial;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: var(--cyan-dark);
+    border: 0;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
