@@ -13,11 +13,15 @@
   --cyan: #56cfe1; /* Celeste standard */
   --cyan-light: #d0f4f7; /* Celeste chiaro */
 }
+.logo {
+  height: 5rem;
+  width: 10rem;
+  border-radius: 10px;
+}
 .link-color {
   color: #468faf;
   text-transform: uppercase;
 }
-header nav div a img {
-  height: 5rem;
-  width: 10rem;
+.header {
+  background-color: #013a63;
 }
