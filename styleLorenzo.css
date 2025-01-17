@@ -98,8 +98,10 @@ body{
 =======
   background-color: #013a63 !important;
 }
-.body__aside__image {
-  height: 5rem;
-  background-color: #013a63;
+.copyright {
+  height: 3rem;
+}
+footer ul {
+  height: 3rem;
 }
 >>>>>>> b77403dab558430eb2d5c24d08a14689c848d35d
