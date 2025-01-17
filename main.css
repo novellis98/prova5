@@ -14,14 +14,6 @@
   --cyan-light: #d0f4f7; /* Celeste chiaro */
 }
 
-.container {
-  background: var(--cyan-dark);
-}
-
-.text-body-secondary {
-  color: whitesmoke !important;
-}
-
-.bg-dark {
-  background-color: #013a63 !important;
+body {
+  background-color: #057b9f;
 }

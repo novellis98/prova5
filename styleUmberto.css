@@ -1,18 +1,3 @@
-:root {
-  /* Blu */
-  --blue-darkest: #0d1b2a; /* Blu molto scuro */
-  --blue-darker: #1b263b; /* Blu scuro */
-  --blue-dark: #274c77; /* Blu profondo */
-  --blue: #468faf; /* Blu standard */
-  --blue-light: #a9d6e5; /* Blu chiaro */
-
-  /* Celeste */
-  --cyan-darkest: #013a63; /* Celeste molto scuro */
-  --cyan-darker: #045a8d; /* Celeste scuro */
-  --cyan-dark: #057b9f; /* Celeste intenso */
-  --cyan: #56cfe1; /* Celeste standard */
-  --cyan-light: #d0f4f7; /* Celeste chiaro */
-}
 .logo {
   height: 5rem;
   width: 10rem;
@@ -41,12 +26,13 @@
   display: block;
   border: 0;
   visibility: hidden; /* Nasconde il menu inizialmente */
-  transform: translateY(0px);
-  transition: all 0.1s ease; /* Transizione */
+  transform: translateY(-10px);
+  transition: all 0.2s ease; /* Transizione */
 }
 .dropdown-menu.show {
   visibility: visible; /* Mostra il menu */
-  transform: translateY(20px);
+  transform: translateY(0px);
+  padding-top: 0;
 }
 .nav-link:hover {
   color: #d0f4f7;
@@ -55,4 +41,15 @@
 .navbar .nav-link:focus,
 .navbar .nav-link.show {
   color: white;
+}
+.body__aside__image {
+  background-color: #013a63;
+}
+.body__aside__image img {
+  height: 20rem;
+  position: relative;
+  transform: translateX(100%);
+}
+.aside__goku {
+  height: 30rem;
 }
