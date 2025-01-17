@@ -25,3 +25,7 @@
 .bg-dark {
   background-color: #013a63 !important;
 }
+.body__aside__image {
+  height: 5rem;
+  background-color: #013a63;
+}
