@@ -1,0 +1,62 @@
+:root {
+  /* Blu */
+  --blue-darkest: #0d1b2a; /* Blu molto scuro */
+  --blue-darker: #1b263b; /* Blu scuro */
+  --blue-dark: #274c77; /* Blu profondo */
+  --blue: #468faf; /* Blu standard */
+  --blue-light: #a9d6e5; /* Blu chiaro */
+
+  /* Celeste */
+  --cyan-darkest: #013a63; /* Celeste molto scuro */
+  --cyan-darker: #045a8d; /* Celeste scuro */
+  --cyan-dark: #057b9f; /* Celeste intenso */
+  --cyan: #56cfe1; /* Celeste standard */
+  --cyan-light: #d0f4f7; /* Celeste chiaro */
+}
+.logo {
+  height: 5rem;
+  width: 10rem;
+  border-radius: 10px;
+}
+.nav-link {
+  color: whitesmoke;
+  text-transform: uppercase;
+}
+.header {
+  background-color: var(--cyan-darker);
+}
+<<<<<<< HEAD:styleHeader.css
+
+=======
+.blue-light {
+  color: #d0f4f7;
+}
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0;
+}
+
+.navbar-toggler {
+  border-color: transparent;
+  font-size: 1.7rem;
+}
+.dropdown-menu {
+  background-color: #013a63;
+  display: block;
+  border: 0;
+  visibility: hidden; /* Nasconde il menu inizialmente */
+  transform: translateY(0px);
+  transition: all 0.1s ease; /* Transizione */
+}
+.dropdown-menu.show {
+  visibility: visible; /* Mostra il menu */
+  transform: translateY(20px);
+}
+.nav-link:hover {
+  color: #d0f4f7;
+  background-color: transparent;
+}
+.navbar .nav-link:focus,
+.navbar .nav-link.show {
+  color: white;
+}
+>>>>>>> b77403dab558430eb2d5c24d08a14689c848d35d:styleUmberto.css
