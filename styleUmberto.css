@@ -42,14 +42,9 @@
 .navbar .nav-link.show {
   color: white;
 }
-.body__aside__image {
-  background-color: #013a63;
+.body__aside div {
+  height: 40rem;
 }
 .body__aside__image img {
   height: 20rem;
-  position: relative;
-  transform: translateX(100%);
-}
-.aside__goku {
-  height: 30rem;
 }
