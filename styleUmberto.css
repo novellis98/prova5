@@ -59,3 +59,45 @@
   background-color: #d0f4f7;
   border: #013a63 2px solid;
 }
+
+
+
+/*SOFIA*/
+/* SCROLLBAR */
+*::-webkit-scrollbar {width: 7px}
+*::-webkit-scrollbar-track-piece {background: #034AA6}
+*::-webkit-scrollbar-thumb {background: #0D65D9}
+
+/*intro*/
+.intro{
+  height: 300px;
+  overflow:auto;
+}
+
+.shadow{
+box-shadow: 0 0 18px #d0f4f7;
+}
+
+/*CARD*/
+h2{
+  color:#d0f4f7;
+  font-style:  italic;
+  letter-spacing: 3px;
+  padding: 25px
+}
+.card-text1{
+  text-align: justify;
+}
+.card-body{
+  overflow:auto;
+  height: 140px;
+  box-shadow: 0 0 18px #d0f4f7
+}
+.card img {
+  filter: grayscale(0);
+  transition: all 0.3s;
+}
+.card img:hover {  
+  filter: grayscale(100%);
+}
+
