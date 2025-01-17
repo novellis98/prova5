@@ -10,9 +10,7 @@
 .header {
   background-color: var(--cyan-darker);
 }
-<<<<<<< HEAD:styleHeader.css
 
-=======
 .blue-light {
   color: #d0f4f7;
 }
@@ -45,9 +43,7 @@
 .navbar .nav-link.show {
   color: white;
 }
-<<<<<<< HEAD
->>>>>>> b77403dab558430eb2d5c24d08a14689c848d35d:styleUmberto.css
-=======
+
 .container__custom {
   background: linear-gradient(rgba(43, 75, 217, 0.478), rgba(0, 0, 0, 0.337)),
     url(/media/sfondo.jpg);
@@ -111,4 +107,3 @@ h1 {
 .card img:hover {
   filter: grayscale(100%);
 }
->>>>>>> 3ad3a4ca86c77d4fedaa459b09adae5f21273dc6
