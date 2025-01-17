@@ -23,5 +23,6 @@
   text-transform: uppercase;
 }
 .header {
-  background-color: #013a63;
+  background-color: var(--cyan-darker);
 }
+

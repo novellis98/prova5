@@ -13,14 +13,15 @@
     --cyan: #56cfe1; /* Celeste standard */
     --cyan-light: #d0f4f7; /* Celeste chiaro */
 }
-
+/* Navbar */
 .nav {
     --bs-nav-link-color: var(--cyan-dark);
     --bs-nav-link-hover-color: var(--cyan-dark);
 }
 .nav-link {
-    color: var(--bs-nav-link-color);
+    color: whitesmoke;
     background-color: var(#013a63 );
+   
 }
 
 .container{
@@ -32,5 +33,58 @@
 }
 
 .bg-dark {
-    background-color: #013a63 !important;
+    background-color: var(--cyan-darker) !important;
+}
+/* Navbar Dropdown */
+
+.nav-link.show {
+    color: whitesmoke;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: whitesmoke;
+    background-color: var(--cyan-dark);
+}
+
+.dropdown-item {
+    color: whitesmoke;
+    background-color:  var(--cyan-darker);
+}
+
+.dropdown-menu {
+    --bs-dropdown-link-hover-color: var(--cyan-dark);
+    color: var(--cyan-dark);
+    background-color: var(--cyan-darker);
+}
+.bg-body-tertiary {
+    background-color: var(--cyan-darker) !important;
+}
+/* Dropdown Button */
+.btn:hover {
+    color: var(--cyan-darkest);
+    background-color: var(--blue-light);
+    border-color: var(--bs-btn-hover-border-color);
+}
+
+.btn-primary {
+    --bs-btn-bg: var(--cyan-dark);
+    --bs-btn-active-color: whitesmoke;
+}
+
+.card {
+    --bs-card-border-color: rgb(255 78 78 / 66%);
+    --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
+    --bs-card-color: ;
+    --bs-card-bg: var(--cyan-darker);
+    color: whitesmoke;
+    background-color: var(--bs-card-bg);
+    border: var(--bs-card-border-width) solid white;
+}
+
+.header, .card, .shadow, .bg-dark {
+    box-shadow:0 0 18px var(--cyan)
+
+}
+body{
+
+    background-image: url(./pattern.png);
 }
