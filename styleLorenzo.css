@@ -25,3 +25,9 @@
 .bg-dark {
   background-color: #013a63 !important;
 }
+.copyright {
+  height: 3rem;
+}
+footer ul {
+  height: 3rem;
+}
