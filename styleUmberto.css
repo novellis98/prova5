@@ -28,19 +28,18 @@
 
 .dropdown-menu {
   background-color: #013a63;
+  height: 0;
   display: block;
-  border: 0;
-  visibility: hidden;
-  /* Nasconde il menu inizialmente */
-  transform: translateY(-10px);
-  transition: all 0.2s ease;
-  /* Transizione */
+  /* border: 0; */
+  /* visibility: hidden; */
+  /* transform: translateY(-10px);
+  transition: all 0.2s ease; */
 }
 
 .dropdown-menu.show {
-  visibility: visible;
-  /* Mostra il menu */
-  transform: translateY(0px);
+  /* visibility: visible; */
+  height: 10rem;
+  /* transform: translateY(0px); */
   padding-top: 0;
 }
 
@@ -55,8 +54,7 @@
 }
 
 .container__custom {
-  background: linear-gradient(transparent, #0173bc),
-    url(/media/sfondo.jpg);
+  background: linear-gradient(transparent, #0173bc), url(/media/sfondo.jpg);
 }
 
 .section__1 div {
@@ -80,7 +78,7 @@
 /* ------------- SOFIA --------------- */
 
 .body-c {
-  background: #0173bc
+  background: #0173bc;
 }
 
 /* SCROLLBAR */
@@ -138,32 +136,32 @@ h1 {
 }
 
 /*SFONDI INDEX*/
-.first-index{
+.first-index {
   background-image: url(./media/first-index.png);
   background-size: cover;
   background-position: top;
 }
-.nth-index{
+.nth-index {
   background-image: url(./media/dragonball-game.png);
   background-size: cover;
   background-position: top;
 }
-.th-index{
+.th-index {
   background-image: url(./media/characters.jpg);
   background-size: cover;
   background-position: top;
 }
 
 /*BOTTONI*/
-button a{
+button a {
   text-decoration: none;
   color: #fff;
 }
-.btn{
-  border-color: #fff
+.btn {
+  border-color: #fff;
 }
 
 /*OMBRA*/
-.my-shadow{
+.my-shadow {
   box-shadow: 0 0 10px #d0f4f7;
 }
