@@ -34,9 +34,9 @@ ul {
 
 .dropdown-menu {
   background-color: #013a63;
-  height: 0;
   display: block;
   border: 0;
+<<<<<<< HEAD
   visibility: hidden;
 
 }
@@ -44,6 +44,15 @@ ul {
 .dropdown-menu.show {
   visibility: visible;
   height: 10rem;
+=======
+  height: 0px;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.dropdown-menu.show {
+  height: calc(5 * 40px);
+>>>>>>> ac2100d6ad8cf99c555d65d64594afd33c75519f
   padding-top: 0;
 }
 
