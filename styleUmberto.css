@@ -3,16 +3,23 @@
   width: 10rem;
   border-radius: 10px;
 }
+.logo:hover {
+  transform: scale(1.03);
+}
 
 .nav-link {
   color: whitesmoke;
   text-transform: uppercase;
+<<<<<<< HEAD
   font-weight: bold;
   letter-spacing: 2px;
 }
 
 ul {
   gap: 60px
+=======
+  font-size: 1.3rem;
+>>>>>>> 7dbf45fc221dc0dd1abf181be40a292e73ffd114
 }
 
 .header {
@@ -51,8 +58,12 @@ ul {
 }
 
 .dropdown-menu.show {
+<<<<<<< HEAD
   height: calc(5 * 40px);
 >>>>>>> ac2100d6ad8cf99c555d65d64594afd33c75519f
+=======
+  height: calc(5 * 48px);
+>>>>>>> 7dbf45fc221dc0dd1abf181be40a292e73ffd114
   padding-top: 0;
 }
 
@@ -64,6 +75,10 @@ ul {
 
 .navbar .nav-link:focus {
   color: white;
+}
+
+.user img {
+  height: 2.5rem;
 }
 
 .container__custom {
