@@ -7,6 +7,12 @@
 .nav-link {
   color: whitesmoke;
   text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+ul {
+  gap: 60px
 }
 
 .header {
@@ -30,26 +36,24 @@
   background-color: #013a63;
   height: 0;
   display: block;
-  /* border: 0; */
-  /* visibility: hidden; */
-  /* transform: translateY(-10px);
-  transition: all 0.2s ease; */
+  border: 0;
+  visibility: hidden;
+
 }
 
 .dropdown-menu.show {
-  /* visibility: visible; */
+  visibility: visible;
   height: 10rem;
-  /* transform: translateY(0px); */
   padding-top: 0;
 }
 
-.nav-link:hover {
+.navbar .nav-link.show,
+.navbar .nav-link:hover {
   color: #d0f4f7;
   background-color: transparent;
 }
 
-.navbar .nav-link:focus,
-.navbar .nav-link.show {
+.navbar .nav-link:focus {
   color: white;
 }
 
@@ -77,8 +81,42 @@
 
 /* ------------- SOFIA --------------- */
 
+@font-face {
+  font-family: "Raleway";
+  src: url(./fonts/Raleway-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "Saiyan";
+  src: url(./fonts/Saiyan-Sans.ttf);
+}
+
 .body-c {
   background: #0173bc;
+}
+
+/*FONT GENERLAE*/
+body {
+  font-family: "Raleway";
+}
+
+/*TITOLI*/
+h1,
+h2,
+h3 {
+  font-family: "Saiyan";
+}
+
+h1 {
+  font-size: 6rem
+}
+
+h2 {
+  font-size: 4rem
+}
+
+h3 {
+  font-size: 2rem
 }
 
 /* SCROLLBAR */
@@ -141,11 +179,13 @@ h1 {
   background-size: cover;
   background-position: top;
 }
+
 .nth-index {
   background-image: url(./media/dragonball-game.png);
   background-size: cover;
   background-position: top;
 }
+
 .th-index {
   background-image: url(./media/characters.jpg);
   background-size: cover;
@@ -157,6 +197,7 @@ button a {
   text-decoration: none;
   color: #fff;
 }
+
 .btn {
   border-color: #fff;
 }
