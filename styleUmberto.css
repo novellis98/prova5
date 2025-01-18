@@ -3,10 +3,12 @@
   width: 10rem;
   border-radius: 10px;
 }
+
 .nav-link {
   color: whitesmoke;
   text-transform: uppercase;
 }
+
 .header {
   background-color: var(--cyan-darker);
 }
@@ -14,6 +16,7 @@
 .blue-light {
   color: #d0f4f7;
 }
+
 .navbar-toggler:focus {
   box-shadow: 0 0 0 0;
 }
@@ -22,55 +25,73 @@
   border-color: transparent;
   font-size: 1.7rem;
 }
+
 .dropdown-menu {
   background-color: #013a63;
   display: block;
   border: 0;
-  visibility: hidden; /* Nasconde il menu inizialmente */
+  visibility: hidden;
+  /* Nasconde il menu inizialmente */
   transform: translateY(-10px);
-  transition: all 0.2s ease; /* Transizione */
+  transition: all 0.2s ease;
+  /* Transizione */
 }
+
 .dropdown-menu.show {
-  visibility: visible; /* Mostra il menu */
+  visibility: visible;
+  /* Mostra il menu */
   transform: translateY(0px);
   padding-top: 0;
 }
+
 .nav-link:hover {
   color: #d0f4f7;
   background-color: transparent;
 }
+
 .navbar .nav-link:focus,
 .navbar .nav-link.show {
   color: white;
 }
 
 .container__custom {
-  background: linear-gradient(rgba(43, 75, 217, 0.478), rgba(0, 0, 0, 0.337)),
+  background: linear-gradient(transparent, #0173bc),
     url(/media/sfondo.jpg);
 }
+
 .section__1 div {
   min-height: 40rem;
 }
+
 .section__1--image img {
   height: 20rem;
 }
+
 .section__1--wrapper {
   background-color: #468faf;
   border: #013a63 5px solid;
 }
+
 .section__1--main {
   background-color: #d0f4f7;
   border: #013a63 2px solid;
 }
 
 /*SOFIA*/
+
+.body-c {
+  background: #0173bc
+}
+
 /* SCROLLBAR */
 *::-webkit-scrollbar {
   width: 7px;
 }
+
 *::-webkit-scrollbar-track-piece {
   background: #034aa6;
 }
+
 *::-webkit-scrollbar-thumb {
   background: #0d65d9;
 }
@@ -85,6 +106,10 @@
   box-shadow: 0 0 18px #d0f4f7;
 }
 
+.justify {
+  text-align: justify;
+}
+
 /*CARD*/
 h1 {
   color: #d0f4f7;
@@ -92,18 +117,48 @@ h1 {
   letter-spacing: 3px;
   padding: 25px;
 }
+
 .card-text1 {
   text-align: justify;
 }
+
 .card-body {
   overflow: auto;
   height: 140px;
   box-shadow: 0 0 18px #d0f4f7;
 }
+
 .card img {
   filter: grayscale(0);
   transition: all 0.3s;
 }
+
 .card img:hover {
   filter: grayscale(100%);
+}
+
+.first-index{
+  background-image: url(./media/first-index.png);
+  background-size: cover;
+  background-position: top;
+}
+.nth-index{
+  background-image: url(./media/dragonball-game.png);
+  background-size: cover;
+  background-position: top;
+}
+.th-index{
+  background-image: url(./media/characters.jpg);
+  background-size: cover;
+  background-position: top;
+}
+button a{
+  text-decoration: none;
+  color: #fff;
+}
+.btn{
+  border-color: #fff
+}
+.my-shadow{
+  box-shadow: 0 0 10px #d0f4f7;
 }

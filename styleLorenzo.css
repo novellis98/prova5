@@ -88,7 +88,8 @@
   box-shadow: 0 0 18px var(--cyan);
 }
 body {
-  background-image: url(./pattern.png);
+  background-image: url(./media/madpattern.png);
+  background-size: 40%
 }
 
 .copyright {
