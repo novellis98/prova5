@@ -3,10 +3,14 @@
   width: 10rem;
   border-radius: 10px;
 }
+.logo:hover {
+  transform: scale(1.03);
+}
 
 .nav-link {
   color: whitesmoke;
   text-transform: uppercase;
+  font-size: 1.3rem;
 }
 
 .header {
@@ -36,7 +40,7 @@
 }
 
 .dropdown-menu.show {
-  height: calc(5 * 40px);
+  height: calc(5 * 48px);
   padding-top: 0;
 }
 
@@ -48,6 +52,10 @@
 .navbar .nav-link:focus,
 .navbar .nav-link.show {
   color: white;
+}
+
+.user img {
+  height: 2.5rem;
 }
 
 .container__custom {
