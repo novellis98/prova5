@@ -1,844 +1,720 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Dragonball Fan Page | Personaggi</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    />
-    <link rel="stylesheet" href="styleUmberto.css" />
-    <link rel="stylesheet" href="styleLorenzo.css" />
-    <link rel="stylesheet" href="main.css" />
-  </head>
 
-  <body>
-    <!-- header -->
-    <header class="header fixed-top">
-      <nav class="navbar navbar-expand-lg shadow">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="/index.html"
-            ><img
-              class="object-fit-contain logo"
-              src="/media/logo.png"
-              alt="foto logo"
-          /></a>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a
-                  class="nav-link link-color"
-                  aria-current="page"
-                  href="/index.html"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link blue-dark" href="/personaggi.html"
-                  >Personaggi</a
-                >
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Serie
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item nav-link" href="#">Dragonball</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item nav-link" href="#">Dragonball Z</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item nav-link" href="#"
-                      >Dragonball Daima</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item nav-link" href="#"
-                      >Dragonball Super</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item nav-link" href="#">Dragonball GT</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-          <div class="d-flex button-menu">
-            <div class="user">
-              <img src="/media/default-user.png" alt="default user foto" />
-            </div>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <i class="bi bi-ui-radios-grid blue-light"></i>
-            </button>
-          </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dragonball Fan Page | Personaggi</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="styleUmberto.css" />
+  <link rel="stylesheet" href="styleLorenzo.css" />
+  <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+  <!-- header -->
+  <header class="header fixed-top">
+    <nav class="navbar navbar-expand-lg shadow">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html"><img class="object-fit-contain logo" src="./media/logo.png"
+            alt="foto logo" /></a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link link-color" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link blue-dark" href="./personaggi.html">Personaggi</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Serie
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item nav-link" href="#">Dragonball</a>
+                </li>
+                <li>
+                  <a class="dropdown-item nav-link" href="#">Dragonball Z</a>
+                </li>
+                <li>
+                  <a class="dropdown-item nav-link" href="#">Dragonball Daima</a>
+                </li>
+                <li>
+                  <a class="dropdown-item nav-link" href="#">Dragonball Super</a>
+                </li>
+                <li>
+                  <a class="dropdown-item nav-link" href="#">Dragonball GT</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </div>
-      </nav>
-    </header>
-
-    <!-- inizio parte Sofia-->
-    <!-- inizio container -->
-    <div class="container justify">
-      <!-- prima riga-->
-      <div class="row">
-        <div class="col-12">
-          <h1 class="text-center text-uppercase">I Personaggi di Dragonball</h1>
+        <div class="d-flex button-menu">
+          <div class="user">
+            <img src="./media/default-user.png" alt="default user foto" />
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="bi bi-ui-radios-grid blue-light"></i>
+          </button>
         </div>
       </div>
+    </nav>
+  </header>
 
-      <!-- seconda riga-->
-      <div class="row">
-        <div class="col-12 bg-body-tertiary pb-5 mb-5 shadow">
-          <div class="intro p-3">
-            <h4 class="text-center text-white">
-              Tutti i personaggi creati da Akira Toriyama
-            </h4>
-            <p class="text-white">
-              I personaggi di Dragon Ball sono tra i più amati e conosciuti del
-              mondo dei manga e degli anime. Dragon Ball è un manga scritto e
-              disegnato da Akira Toriyama. L’opera è iniziata nel 1984 e si è
-              conclusa nel 1995 e ha dato vita a due serie anime che hanno
-              riscosso un successo almeno pari all’opera originale. Le due serie
-              sono Dragon Ball e Dragon Ball Z, prodotte tra il 1986 e il 1996.
-              Le serie animate seguono abbastanza fedelmente la storia del manga
-              ma apportano qualche aggiunta. L’opera di Toriyama è il secondo
-              manga più venduto della storia, battuto solo da One Piece. Va però
-              detto che One Piece – che è ancora in corso – ha già superato i
-              100 volumi. Mentre l’intera opera di Dragon Ball è raccolta in
-              “solo” 42 volumi. Il successo dell’anime invece lo abbiamo visto
-              anche con i nostri occhi, con le continue repliche che sono andate
-              avanti quasi ininterrottamente per 30 anni. Cosa che ha reso i
-              personaggi di Dragon Ball popolari e amati per differenti
-              generazioni. Dragon Ball è stato così amato e acclamato da portare
-              a continue espansioni del suo universo. Sia con i film, sia con
-              nuove serie che hanno portato avanti o ampliato la storia conclusa
-              con Dragon Ball Z. La prima è stata Dragon Ball GT, mentre la
-              seconda è Dragon Ball Super. Discorso diverso per la serie Dragon
-              Ball Kai, serie prodotta anni dopo DB GT e prima di DB Super. Kai
-              è una versione alternativa di Dragon Ball Z che va a eliminare
-              tutte le parti della storia aggiunte nell’anime e che non erano
-              presenti nel manga.
-            </p>
-            <h4 class="text-center text-white">La storia di Dragon Ball</h4>
-            <p class="text-white">
-              Akira Toriyama si è basato su un classico della letteratura
-              cinese: Il viaggio in Occidente. Un’opera che narra un lungo
-              viaggio di un gruppo di personaggi che combattono demoni e mostri.
-              Dragon Ball ripercorre le avventure del protagonista Son Goku
-              dall’infanzia all’età adulta. Goku non è un terrestre e ha delle
-              origini che ricordano molto quelle di Superman. Il suo vero nome è
-              Kakaroth ed è un Saiyan proveniente dal pianeta Vegeta. Quando era
-              bambino il suo pianeta stava per essere distrutto, il padre però è
-              riuscito a salvarlo mandandolo sulla Terra con una piccola capsula
-              spaziale. Arrivato sulla Terra viene trovato da un anziano di nome
-              Son Gohan che lo accoglie, lo ribattezza Son Goku e lo cresce come
-              se fosse nipote. È Gohan a insegnarli le arti marziali,
-              fondamentali nei combattimenti di Dragon Ball. Durante le sue
-              avventure si fa molti amici che lo accompagnano e lo fiancheggiano
-              nei continui scontri con gli antagonisti. Inizialmente sono delle
-              piccole minacce, ma nel proseguo della storia diventano temibili
-              mosti alieni che minacciano la pace dell’intero universo. Difatti
-              la storia è ambientata per buona parte sulla Terra, ma nel corso
-              dell’opera ci porta in giro per altri pianeti. Senza dimenticare
-              alcune parti ambientate nell’aldilà. Il nome Dragon Ball invece è
-              legato alle Sfere del Drago, sette sfere magiche che sono nascoste
-              in giro per il pianeta. Chi le trova tutte può evocare il drago
-              Shenron, un drago gigantesco che può esaudire un desiderio.
-            </p>
-            <h4 class="text-center text-white">I mondi di Dragon Ball</h4>
-            <p class="text-white">
-              La Terra rappresentata da Toriyama è molto simile a quella reale
-              ma presenta con varie differenze. L’ambientazione sembra
-              futuristica perché ci sono molte tecnologie avanzate, ad esempio
-              piccoli velivoli che si affiancano alle macchine o tecnologie di
-              rimpicciolimento e immagazzinamento di ogni sorta di oggetto
-              dentro a piccole capsule. Gli umani possono sviluppare abilità
-              sovraumane, anche se solo in pochi ci riescono. Il regno animale
-              invece riserva grosse soprese, come i dinosauri o altri animali
-              antropomorfi. Difatti alcuni personaggi di Dragon Ball sono
-              proprio degli animali. Anche se in piccolissima parte. I mondi
-              extraterrestri hanno un ruolo fondamentale nella storia. Dopotutto
-              il protagonista Goku non è un terrestre. La storia ci porta a
-              conoscere altri pianeti, dove i protagonisti si recano per fermare
-              minacce sempre più insidiose. Non mancano anche delle parti
-              ambientante nell’aldilà. Difatti i personaggi di Dragon Ball
-              quando muoiono possono continuare ad avere un ruolo nelle vicende.
-              Anche perché possono resuscitare, ad esempio usando il desiderio
-              del Drago Shenron.
-            </p>
+  <!-- inizio parte Sofia-->
+  <!-- inizio container -->
+  <div class="container justify mt-5 pt-5">
+    <!-- prima riga-->
+    <div class="row">
+      <div class="col-12">
+        <h1 class="text-center text-uppercase">I Personaggi di Dragonball</h1>
+      </div>
+    </div>
+
+    <!-- seconda riga-->
+    <div class="row">
+      <div class="col-12 bg-body-tertiary pb-5 mb-5 shadow">
+        <div class="intro p-3">
+          <h4 class="text-center text-white">
+            Tutti i personaggi creati da Akira Toriyama
+          </h4>
+          <p class="text-white">
+            I personaggi di Dragon Ball sono tra i più amati e conosciuti del
+            mondo dei manga e degli anime. Dragon Ball è un manga scritto e
+            disegnato da Akira Toriyama. L’opera è iniziata nel 1984 e si è
+            conclusa nel 1995 e ha dato vita a due serie anime che hanno
+            riscosso un successo almeno pari all’opera originale. Le due serie
+            sono Dragon Ball e Dragon Ball Z, prodotte tra il 1986 e il 1996.
+            Le serie animate seguono abbastanza fedelmente la storia del manga
+            ma apportano qualche aggiunta. L’opera di Toriyama è il secondo
+            manga più venduto della storia, battuto solo da One Piece. Va però
+            detto che One Piece – che è ancora in corso – ha già superato i
+            100 volumi. Mentre l’intera opera di Dragon Ball è raccolta in
+            “solo” 42 volumi. Il successo dell’anime invece lo abbiamo visto
+            anche con i nostri occhi, con le continue repliche che sono andate
+            avanti quasi ininterrottamente per 30 anni. Cosa che ha reso i
+            personaggi di Dragon Ball popolari e amati per differenti
+            generazioni. Dragon Ball è stato così amato e acclamato da portare
+            a continue espansioni del suo universo. Sia con i film, sia con
+            nuove serie che hanno portato avanti o ampliato la storia conclusa
+            con Dragon Ball Z. La prima è stata Dragon Ball GT, mentre la
+            seconda è Dragon Ball Super. Discorso diverso per la serie Dragon
+            Ball Kai, serie prodotta anni dopo DB GT e prima di DB Super. Kai
+            è una versione alternativa di Dragon Ball Z che va a eliminare
+            tutte le parti della storia aggiunte nell’anime e che non erano
+            presenti nel manga.
+          </p>
+          <h4 class="text-center text-white">La storia di Dragon Ball</h4>
+          <p class="text-white">
+            Akira Toriyama si è basato su un classico della letteratura
+            cinese: Il viaggio in Occidente. Un’opera che narra un lungo
+            viaggio di un gruppo di personaggi che combattono demoni e mostri.
+            Dragon Ball ripercorre le avventure del protagonista Son Goku
+            dall’infanzia all’età adulta. Goku non è un terrestre e ha delle
+            origini che ricordano molto quelle di Superman. Il suo vero nome è
+            Kakaroth ed è un Saiyan proveniente dal pianeta Vegeta. Quando era
+            bambino il suo pianeta stava per essere distrutto, il padre però è
+            riuscito a salvarlo mandandolo sulla Terra con una piccola capsula
+            spaziale. Arrivato sulla Terra viene trovato da un anziano di nome
+            Son Gohan che lo accoglie, lo ribattezza Son Goku e lo cresce come
+            se fosse nipote. È Gohan a insegnarli le arti marziali,
+            fondamentali nei combattimenti di Dragon Ball. Durante le sue
+            avventure si fa molti amici che lo accompagnano e lo fiancheggiano
+            nei continui scontri con gli antagonisti. Inizialmente sono delle
+            piccole minacce, ma nel proseguo della storia diventano temibili
+            mosti alieni che minacciano la pace dell’intero universo. Difatti
+            la storia è ambientata per buona parte sulla Terra, ma nel corso
+            dell’opera ci porta in giro per altri pianeti. Senza dimenticare
+            alcune parti ambientate nell’aldilà. Il nome Dragon Ball invece è
+            legato alle Sfere del Drago, sette sfere magiche che sono nascoste
+            in giro per il pianeta. Chi le trova tutte può evocare il drago
+            Shenron, un drago gigantesco che può esaudire un desiderio.
+          </p>
+          <h4 class="text-center text-white">I mondi di Dragon Ball</h4>
+          <p class="text-white">
+            La Terra rappresentata da Toriyama è molto simile a quella reale
+            ma presenta con varie differenze. L’ambientazione sembra
+            futuristica perché ci sono molte tecnologie avanzate, ad esempio
+            piccoli velivoli che si affiancano alle macchine o tecnologie di
+            rimpicciolimento e immagazzinamento di ogni sorta di oggetto
+            dentro a piccole capsule. Gli umani possono sviluppare abilità
+            sovraumane, anche se solo in pochi ci riescono. Il regno animale
+            invece riserva grosse soprese, come i dinosauri o altri animali
+            antropomorfi. Difatti alcuni personaggi di Dragon Ball sono
+            proprio degli animali. Anche se in piccolissima parte. I mondi
+            extraterrestri hanno un ruolo fondamentale nella storia. Dopotutto
+            il protagonista Goku non è un terrestre. La storia ci porta a
+            conoscere altri pianeti, dove i protagonisti si recano per fermare
+            minacce sempre più insidiose. Non mancano anche delle parti
+            ambientante nell’aldilà. Difatti i personaggi di Dragon Ball
+            quando muoiono possono continuare ad avere un ruolo nelle vicende.
+            Anche perché possono resuscitare, ad esempio usando il desiderio
+            del Drago Shenron.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- terza riga  -->
+    <div class="row mb-5">
+      <!-- goku -->
+      <div class="col-12 col-md-4">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./media/personaggi/goku.png" class="img-fluid rounded-start" alt="..." />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Goku</h5>
+                <p class="card-text1">
+                  Il protagonista principale di Dragon Ball. La prima parte
+                  delle vicende mostra Goku da piccolo. È un guerriero Saiyan
+                  che arriva dal pianeta Vegeta quando è un bambino. Il suo
+                  vero nome è Kakarotto, ma viene ribattezzato da Gohan, un
+                  anziano signore che lo trova e lo cresce come un nipote.
+                  Goku ama combattere e diventare sempre più forte per
+                  proteggere i suoi amici e la Terra. Ha una grande forza,
+                  velocità e abilità di combattimento.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
-      <!-- terza riga  -->
-      <div class="row mb-5">
-        <!-- goku -->
-        <div class="col-12 col-md-4">
-          <div class="card mb-3">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img
-                  src="./media/personaggi/goku.png"
-                  class="img-fluid rounded-start"
-                  alt="..."
-                />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Goku</h5>
-                  <p class="card-text1">
-                    Il protagonista principale di Dragon Ball. La prima parte
-                    delle vicende mostra Goku da piccolo. È un guerriero Saiyan
-                    che arriva dal pianeta Vegeta quando è un bambino. Il suo
-                    vero nome è Kakarotto, ma viene ribattezzato da Gohan, un
-                    anziano signore che lo trova e lo cresce come un nipote.
-                    Goku ama combattere e diventare sempre più forte per
-                    proteggere i suoi amici e la Terra. Ha una grande forza,
-                    velocità e abilità di combattimento.
-                  </p>
-                </div>
+      <!-- vegeta -->
+      <div class="col-12 col-md-4">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./media/personaggi/vegeta.png" class="img-fluid rounded-start" alt="..." />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Vegeta</h5>
+                <p class="card-text1">
+                  Un guerriero Saiyan che è sempre in competizione (non
+                  ricambiata) con Goku. Ha un carattere molto orgoglioso e
+                  arrogante e inizialmente ha cercato di uccidere Goku e
+                  conquistare la Terra, ma alla fine si è unito ai suoi ex
+                  nemici per proteggere il pianeta. Vegeta si sente il
+                  personaggio più forte in Dragon Ball, ha una grande abilità
+                  di combattimento e una forza incredibile, ma non ai livelli
+                  di Goku, cosa che fatica ad accettare.
+                </p>
               </div>
             </div>
           </div>
         </div>
+      </div>
 
-        <!-- vegeta -->
-        <div class="col-12 col-md-4">
-          <div class="card mb-3">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img
-                  src="./media/personaggi/vegeta.png"
-                  class="img-fluid rounded-start"
-                  alt="..."
-                />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Vegeta</h5>
-                  <p class="card-text1">
-                    Un guerriero Saiyan che è sempre in competizione (non
-                    ricambiata) con Goku. Ha un carattere molto orgoglioso e
-                    arrogante e inizialmente ha cercato di uccidere Goku e
-                    conquistare la Terra, ma alla fine si è unito ai suoi ex
-                    nemici per proteggere il pianeta. Vegeta si sente il
-                    personaggio più forte in Dragon Ball, ha una grande abilità
-                    di combattimento e una forza incredibile, ma non ai livelli
-                    di Goku, cosa che fatica ad accettare.
-                  </p>
-                </div>
+      <!-- Piccolo -->
+      <div class="col-12 col-md-4">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./media/personaggi/piccolo.png" class="img-fluid rounded-start" alt="..." />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Piccolo</h5>
+                <p class="card-text1">
+                  Un alieno che proviene dal pianeta Namecc. Nelle prime
+                  apparizioni è un temibile nemico di Goku, ma in seguito
+                  passa dalla parte dei buoni e diventa il maestro di
+                  combattimento di Gohan. Oltre a essere un grande
+                  combattente, la razza namecciana ha delle grandi abilità,
+                  come la capacità di manipolare l’energia o la rigenerazione
+                  di arti e parti del corpo mutilate.
+                </p>
               </div>
             </div>
           </div>
         </div>
+      </div>
 
-        <!-- Piccolo -->
-        <div class="col-12 col-md-4">
-          <div class="card mb-3">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img
-                  src="./media/personaggi/piccolo.png"
-                  class="img-fluid rounded-start"
-                  alt="..."
-                />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Piccolo</h5>
-                  <p class="card-text1">
-                    Un alieno che proviene dal pianeta Namecc. Nelle prime
-                    apparizioni è un temibile nemico di Goku, ma in seguito
-                    passa dalla parte dei buoni e diventa il maestro di
-                    combattimento di Gohan. Oltre a essere un grande
-                    combattente, la razza namecciana ha delle grandi abilità,
-                    come la capacità di manipolare l’energia o la rigenerazione
-                    di arti e parti del corpo mutilate.
-                  </p>
-                </div>
+      <!-- Gohan -->
+      <div class="col-12 col-md-4">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./media/personaggi/gohan.png" class="img-fluid rounded-start" alt="..." />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Gohan</h5>
+                <p class="card-text1">
+                  Il primogenito di Goku da cui ha ereditato la forza e le
+                  abilità di un Saiyan. La sua personalità però è più pacifica
+                  e meno interessata alla battaglia rispetto a Goku e Vegeta.
+                  Nonostante questo il suo potenziale è immenso, forse anche
+                  superiore a quello del padre, e in varie occasioni il suo
+                  intervento in battaglia è stato fondamentale per le sorti
+                  della Terra. Per molti potrebbe essere il personaggio più
+                  forte in Dragon Ball ma il suo potenziale è spesso
+                  inespresso.
+                </p>
               </div>
             </div>
           </div>
         </div>
+      </div>
 
-        <!-- Gohan -->
-        <div class="col-12 col-md-4">
-          <div class="card mb-3">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img
-                  src="./media/personaggi/gohan.png"
-                  class="img-fluid rounded-start"
-                  alt="..."
-                />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Gohan</h5>
-                  <p class="card-text1">
-                    Il primogenito di Goku da cui ha ereditato la forza e le
-                    abilità di un Saiyan. La sua personalità però è più pacifica
-                    e meno interessata alla battaglia rispetto a Goku e Vegeta.
-                    Nonostante questo il suo potenziale è immenso, forse anche
-                    superiore a quello del padre, e in varie occasioni il suo
-                    intervento in battaglia è stato fondamentale per le sorti
-                    della Terra. Per molti potrebbe essere il personaggio più
-                    forte in Dragon Ball ma il suo potenziale è spesso
-                    inespresso.
-                  </p>
-                </div>
+      <!-- Trunks -->
+      <div class="col-12 col-md-4">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./media/personaggi/trunks.png" class="img-fluid rounded-start" alt="..." />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Trunks</h5>
+                <p class="card-text1">
+                  Il figlio di Vegeta e Bulma e appare nella serie in due
+                  versioni. Una adulta che è Trunks del futuro, che viaggia
+                  indietro nel tempo da una linea temporale in cui i cyborg
+                  hanno conquistato il pianeta. L’altra invece è un bambino
+                  che però ha fin da subito grandi doti di combattimento.
+                  Difatti riesce a diventare Super Saiyan già all’età di 8
+                  anni.
+                </p>
               </div>
             </div>
           </div>
         </div>
+      </div>
 
-        <!-- Trunks -->
-        <div class="col-12 col-md-4">
-          <div class="card mb-3">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img
-                  src="./media/personaggi/trunks.png"
-                  class="img-fluid rounded-start"
-                  alt="..."
-                />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Trunks</h5>
-                  <p class="card-text1">
-                    Il figlio di Vegeta e Bulma e appare nella serie in due
-                    versioni. Una adulta che è Trunks del futuro, che viaggia
-                    indietro nel tempo da una linea temporale in cui i cyborg
-                    hanno conquistato il pianeta. L’altra invece è un bambino
-                    che però ha fin da subito grandi doti di combattimento.
-                    Difatti riesce a diventare Super Saiyan già all’età di 8
-                    anni.
-                  </p>
-                </div>
+      <!-- goten -->
+      <div class="col-12 col-md-4">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./media/personaggi/goten.png" class="img-fluid rounded-start" alt="..." />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Goten</h5>
+                <p class="card-text1">
+                  Il secondo figlio di Goku e Chichi ed è il fratello minore
+                  di Gohan. Goten è noto per la sua personalità infantile e
+                  giocosa, ed è molto amichevole con gli altri personaggi
+                  della serie. Anche se è giovane, Goten ha dimostrato di
+                  avere un grande potenziale e ha anche imparato a diventare
+                  un Super Saiyan fin da bambino. Ha uno stretto legame
+                  d’amicizia con Trunks.
+                </p>
               </div>
             </div>
           </div>
         </div>
+      </div>
 
-        <!-- goten -->
-        <div class="col-12 col-md-4">
-          <div class="card mb-3">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img
-                  src="./media/personaggi/goten.png"
-                  class="img-fluid rounded-start"
-                  alt="..."
-                />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Goten</h5>
-                  <p class="card-text1">
-                    Il secondo figlio di Goku e Chichi ed è il fratello minore
-                    di Gohan. Goten è noto per la sua personalità infantile e
-                    giocosa, ed è molto amichevole con gli altri personaggi
-                    della serie. Anche se è giovane, Goten ha dimostrato di
-                    avere un grande potenziale e ha anche imparato a diventare
-                    un Super Saiyan fin da bambino. Ha uno stretto legame
-                    d’amicizia con Trunks.
-                  </p>
-                </div>
+      <!-- Maestro Muten -->
+      <div class="col-12 col-md-4">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./media/personaggi/muten.png" class="img-fluid rounded-start" alt="..." />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Maestro Muten</h5>
+                <p class="card-text1">
+                  Conosciuto anche come Genio delle tartarughe, è un anziano
+                  signore dall’aspetto innocuo. Nonostante questo è un vero
+                  esperto di arti marziali e, se si esclude il nonno Gohan, il
+                  Maestro Muten è stato il primo maestro di Goku. È stato lui
+                  ha insegnargli il poderoso Kamehameha, l’Onda energetica che
+                  permette a Goku di vincere molti combattimenti.
+                </p>
               </div>
             </div>
           </div>
         </div>
+      </div>
 
-        <!-- Maestro Muten -->
-        <div class="col-12 col-md-4">
-          <div class="card mb-3">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img
-                  src="./media/personaggi/muten.png"
-                  class="img-fluid rounded-start"
-                  alt="..."
-                />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Maestro Muten</h5>
-                  <p class="card-text1">
-                    Conosciuto anche come Genio delle tartarughe, è un anziano
-                    signore dall’aspetto innocuo. Nonostante questo è un vero
-                    esperto di arti marziali e, se si esclude il nonno Gohan, il
-                    Maestro Muten è stato il primo maestro di Goku. È stato lui
-                    ha insegnargli il poderoso Kamehameha, l’Onda energetica che
-                    permette a Goku di vincere molti combattimenti.
-                  </p>
-                </div>
+      <!-- crilin -->
+      <div class="col-12 col-md-4">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./media/personaggi/crilin.png" class="img-fluid rounded-start" alt="..." />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Crilin</h5>
+                <p class="card-text1">
+                  Uno degli amici di Goku fin dall’infanzia ed è uno dei
+                  personaggi principali della serie. Anche se non ha le
+                  abilità di combattimento dei personaggi più forti, Crilin è
+                  molto abile e ha sconfitto diversi nemici potenti. Il
+                  personaggio unisce una profonda saggezza a una leggerezza
+                  data da un grande senso dell’umorismo. È sempre pronto ad
+                  aiutare gli amici, anche a costo di grandi sacrifici.
+                </p>
               </div>
             </div>
           </div>
         </div>
+      </div>
 
-        <!-- crilin -->
-        <div class="col-12 col-md-4">
-          <div class="card mb-3">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img
-                  src="./media/personaggi/crilin.png"
-                  class="img-fluid rounded-start"
-                  alt="..."
-                />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Crilin</h5>
-                  <p class="card-text1">
-                    Uno degli amici di Goku fin dall’infanzia ed è uno dei
-                    personaggi principali della serie. Anche se non ha le
-                    abilità di combattimento dei personaggi più forti, Crilin è
-                    molto abile e ha sconfitto diversi nemici potenti. Il
-                    personaggio unisce una profonda saggezza a una leggerezza
-                    data da un grande senso dell’umorismo. È sempre pronto ad
-                    aiutare gli amici, anche a costo di grandi sacrifici.
-                  </p>
-                </div>
+      <!-- re kaioh -->
+      <div class="col-12 col-md-4">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./media/personaggi/kaioh.png" class="img-fluid rounded-start" alt="..." />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Re Kaioh</h5>
+                <p class="card-text1">
+                  Conosciuto anche come “Re Kaioh del Nord”, è uno dei quattro
+                  Kaioh della galassia nel mondo di Dragon Ball. È il
+                  guardiano del nord ed è famoso per la sua grande
+                  intelligenza e la sua abilità di insegnare tecniche potenti,
+                  come la famosa tecnica usata da Goku, la “Kaio-ken”. Re Kaio
+                  ha un aspetto buffo ma possiede un’enorme conoscenza del
+                  mondo e delle arti marziali.
+                </p>
               </div>
             </div>
           </div>
         </div>
+      </div>
 
-        <!-- re kaioh -->
-        <div class="col-12 col-md-4">
-          <div class="card mb-3">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img
-                  src="./media/personaggi/kaioh.png"
-                  class="img-fluid rounded-start"
-                  alt="..."
-                />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Re Kaioh</h5>
-                  <p class="card-text1">
-                    Conosciuto anche come “Re Kaioh del Nord”, è uno dei quattro
-                    Kaioh della galassia nel mondo di Dragon Ball. È il
-                    guardiano del nord ed è famoso per la sua grande
-                    intelligenza e la sua abilità di insegnare tecniche potenti,
-                    come la famosa tecnica usata da Goku, la “Kaio-ken”. Re Kaio
-                    ha un aspetto buffo ma possiede un’enorme conoscenza del
-                    mondo e delle arti marziali.
-                  </p>
-                </div>
+      <!-- Freezer -->
+      <div class="col-12 col-md-4">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./media/personaggi/freeser.png" class="img-fluid rounded-start" alt="..." />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Freezer</h5>
+                <p class="card-text1">
+                  È un tiranno intergalattico che ha distrutto molte galassie
+                  e pianeti, tra cui il pianeta Vegeta. Difatti è colui che ha
+                  quasi fatto estinguere la razza Saiyan. Freezer è
+                  estremamente potente e ha una personalità crudele e
+                  spietata. Ha varie forme che ne cambiano l’aspetto e lo
+                  fanno diventare sempre più potente. Goku però si trasforma a
+                  sua volta e diventa per la prima volta Super Saiyan e riesce
+                  a sconfiggerlo.
+                </p>
               </div>
             </div>
           </div>
         </div>
+      </div>
 
-        <!-- Freezer -->
-        <div class="col-12 col-md-4">
-          <div class="card mb-3">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img
-                  src="./media/personaggi/freeser.png"
-                  class="img-fluid rounded-start"
-                  alt="..."
-                />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Freezer</h5>
-                  <p class="card-text1">
-                    È un tiranno intergalattico che ha distrutto molte galassie
-                    e pianeti, tra cui il pianeta Vegeta. Difatti è colui che ha
-                    quasi fatto estinguere la razza Saiyan. Freezer è
-                    estremamente potente e ha una personalità crudele e
-                    spietata. Ha varie forme che ne cambiano l’aspetto e lo
-                    fanno diventare sempre più potente. Goku però si trasforma a
-                    sua volta e diventa per la prima volta Super Saiyan e riesce
-                    a sconfiggerlo.
-                  </p>
-                </div>
+      <!-- Cell -->
+      <div class="col-12 col-md-4">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./media/personaggi/cell.png" class="img-fluid rounded-start" alt="..." />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Cell</h5>
+                <p class="card-text1">
+                  Un cyborg creato da Dr. Gero, un ex scienziato del Red
+                  Ribbon Army. È il nemico principale della saga di Cell e ha
+                  la capacità di assorbire l’energia da persone e altri
+                  cyborg. Assorbendo l’energia può mutare di forma cambiando
+                  vari stati fino a raggiungere la forma perfetta. La sua
+                  evoluzione finale e più potente. Nonostante questo, dopo
+                  lunghi e estenuanti combattimenti, Gohan riesce a
+                  sconfiggerlo.
+                </p>
               </div>
             </div>
           </div>
         </div>
+      </div>
 
-        <!-- Cell -->
-        <div class="col-12 col-md-4">
-          <div class="card mb-3">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img
-                  src="./media/personaggi/cell.png"
-                  class="img-fluid rounded-start"
-                  alt="..."
-                />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Cell</h5>
-                  <p class="card-text1">
-                    Un cyborg creato da Dr. Gero, un ex scienziato del Red
-                    Ribbon Army. È il nemico principale della saga di Cell e ha
-                    la capacità di assorbire l’energia da persone e altri
-                    cyborg. Assorbendo l’energia può mutare di forma cambiando
-                    vari stati fino a raggiungere la forma perfetta. La sua
-                    evoluzione finale e più potente. Nonostante questo, dopo
-                    lunghi e estenuanti combattimenti, Gohan riesce a
-                    sconfiggerlo.
-                  </p>
-                </div>
+      <!-- chichi -->
+      <div class="col-12 col-md-4">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./media/personaggi/chichi.png" class="img-fluid rounded-start" alt="..." />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Chichi</h5>
+                <p class="card-text1">
+                  La moglie di Goku e la madre di Gohan e Goten. È una donna
+                  molto forte e determinata, ed è spesso vista come una figura
+                  materna per i personaggi principali della serie. Chichi ha
+                  un carattere forte e protettivo, ed è sempre preoccupata per
+                  la sicurezza della sua famiglia.
+                </p>
               </div>
             </div>
           </div>
         </div>
+      </div>
 
-        <!-- chichi -->
-        <div class="col-12 col-md-4">
-          <div class="card mb-3">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img
-                  src="./media/personaggi/chichi.png"
-                  class="img-fluid rounded-start"
-                  alt="..."
-                />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Chichi</h5>
-                  <p class="card-text1">
-                    La moglie di Goku e la madre di Gohan e Goten. È una donna
-                    molto forte e determinata, ed è spesso vista come una figura
-                    materna per i personaggi principali della serie. Chichi ha
-                    un carattere forte e protettivo, ed è sempre preoccupata per
-                    la sicurezza della sua famiglia.
-                  </p>
-                </div>
+      <!-- bulma -->
+      <div class="col-12 col-md-4">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./media/personaggi/bulma.png" class="img-fluid rounded-start" alt="..." />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Bulma</h5>
+                <p class="card-text1">
+                  È un’abile inventrice e ha creato molte delle tecnologie
+                  utilizzate dai personaggi della serie. Bulma è anche la
+                  migliore amica di Goku fin da quando era bambino ed è stata
+                  una figura importante nella vita di molti personaggi della
+                  serie. Dopo essersi sposata con Vegeta diventa la mamma di
+                  Trunks e Bra.
+                </p>
               </div>
             </div>
           </div>
         </div>
+      </div>
 
-        <!-- bulma -->
-        <div class="col-12 col-md-4">
-          <div class="card mb-3">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img
-                  src="./media/personaggi/bulma.png"
-                  class="img-fluid rounded-start"
-                  alt="..."
-                />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Bulma</h5>
-                  <p class="card-text1">
-                    È un’abile inventrice e ha creato molte delle tecnologie
-                    utilizzate dai personaggi della serie. Bulma è anche la
-                    migliore amica di Goku fin da quando era bambino ed è stata
-                    una figura importante nella vita di molti personaggi della
-                    serie. Dopo essersi sposata con Vegeta diventa la mamma di
-                    Trunks e Bra.
-                  </p>
-                </div>
+      <!-- Tenshinhan -->
+      <div class="col-12 col-md-4">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./media/personaggi/ten.png" class="img-fluid rounded-start" alt="..." />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Tenshinhan</h5>
+                <p class="card-text1">
+                  In Italia è chiamato Tensing. È un personaggio che non passa
+                  inosservato dato che è come una persona normale, a parte il
+                  terzo occhio al centro della fronte. È un guerriero molo
+                  abile e in origine è uno dei principali nemici di Goku. Poi,
+                  grazie al Genio delle Tartarughe, passa dalla parte dei
+                  buoni e diventa un amico e un prezioso alleato.
+                </p>
               </div>
             </div>
           </div>
         </div>
+      </div>
 
-        <!-- Tenshinhan -->
-        <div class="col-12 col-md-4">
-          <div class="card mb-3">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img
-                  src="./media/personaggi/ten.png"
-                  class="img-fluid rounded-start"
-                  alt="..."
-                />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Tenshinhan</h5>
-                  <p class="card-text1">
-                    In Italia è chiamato Tensing. È un personaggio che non passa
-                    inosservato dato che è come una persona normale, a parte il
-                    terzo occhio al centro della fronte. È un guerriero molo
-                    abile e in origine è uno dei principali nemici di Goku. Poi,
-                    grazie al Genio delle Tartarughe, passa dalla parte dei
-                    buoni e diventa un amico e un prezioso alleato.
-                  </p>
-                </div>
+      <!-- Yamcha -->
+      <div class="col-12 col-md-4">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./media/personaggi/yamcha.png" class="img-fluid rounded-start" alt="..." />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Yamcha</h5>
+                <p class="card-text1">
+                  Chiamato anche Giamca o Iamko in base al doppiaggio, è uno
+                  dei personaggi presenti fin dal principio delle vicende ed è
+                  uno dei guerrieri terrestri più forte. Ha una grande abilità
+                  con le arti marziali e dopo le prime apparizioni dove sembra
+                  un personaggio negativo, diventa un grande amico di Goku e
+                  si rivela buoni e di gran cuore. È sempre pronto a difendere
+                  la Terra, anche se al cresce delle minacce diventa sempre
+                  più marginale.
+                </p>
               </div>
             </div>
           </div>
         </div>
+      </div>
 
-        <!-- Yamcha -->
-        <div class="col-12 col-md-4">
-          <div class="card mb-3">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img
-                  src="./media/personaggi/yamcha.png"
-                  class="img-fluid rounded-start"
-                  alt="..."
-                />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Yamcha</h5>
-                  <p class="card-text1">
-                    Chiamato anche Giamca o Iamko in base al doppiaggio, è uno
-                    dei personaggi presenti fin dal principio delle vicende ed è
-                    uno dei guerrieri terrestri più forte. Ha una grande abilità
-                    con le arti marziali e dopo le prime apparizioni dove sembra
-                    un personaggio negativo, diventa un grande amico di Goku e
-                    si rivela buoni e di gran cuore. È sempre pronto a difendere
-                    la Terra, anche se al cresce delle minacce diventa sempre
-                    più marginale.
-                  </p>
-                </div>
+      <!-- Yajirobei -->
+      <div class="col-12 col-md-4">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./media/personaggi/yaji.png" class="img-fluid rounded-start" alt="..." />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Yajirobei</h5>
+                <p class="card-text1">
+                  Conosciuto anche come Jirobai, è un personaggio centrale
+                  nella prima serie dell’anime, mentre diventa molto marginale
+                  nello Z. È un ronin basso e sovrappeso e non ha particolari
+                  abilità. Goku lo aiuta a scalare la torre dove vive il Gatto
+                  eremita Karin (Balzar) dove poi rimane a vivere.
+                </p>
               </div>
             </div>
           </div>
         </div>
+      </div>
 
-        <!-- Yajirobei -->
-        <div class="col-12 col-md-4">
-          <div class="card mb-3">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img
-                  src="./media/personaggi/yaji.png"
-                  class="img-fluid rounded-start"
-                  alt="..."
-                />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Yajirobei</h5>
-                  <p class="card-text1">
-                    Conosciuto anche come Jirobai, è un personaggio centrale
-                    nella prima serie dell’anime, mentre diventa molto marginale
-                    nello Z. È un ronin basso e sovrappeso e non ha particolari
-                    abilità. Goku lo aiuta a scalare la torre dove vive il Gatto
-                    eremita Karin (Balzar) dove poi rimane a vivere.
-                  </p>
-                </div>
+      <!-- Re Enma -->
+      <div class="col-12 col-md-4">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./media/personaggi/re.png" class="img-fluid rounded-start" alt="..." />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Re Enma</h5>
+                <p class="card-text1">
+                  Conosciuto anche come Re Yammer, è il Re dell’Inferno e il
+                  Giudice delle anime dei morti, carica che lo rende una delle
+                  massime autorità del Mondo dei Morti. Il suo lavoro è
+                  importantissimo, difatti è colui che decide se un’anima può
+                  andare in Paradiso o è costretta a patire le pene
+                  dell’Inferno. Quando riceve un’anima controlla sul suo
+                  registro la condotta che ha tenuto e poi prende la sua
+                  decisione.
+                </p>
               </div>
             </div>
           </div>
         </div>
+      </div>
 
-        <!-- Re Enma -->
-        <div class="col-12 col-md-4">
-          <div class="card mb-3">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img
-                  src="./media/personaggi/re.png"
-                  class="img-fluid rounded-start"
-                  alt="..."
-                />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Re Enma</h5>
-                  <p class="card-text1">
-                    Conosciuto anche come Re Yammer, è il Re dell’Inferno e il
-                    Giudice delle anime dei morti, carica che lo rende una delle
-                    massime autorità del Mondo dei Morti. Il suo lavoro è
-                    importantissimo, difatti è colui che decide se un’anima può
-                    andare in Paradiso o è costretta a patire le pene
-                    dell’Inferno. Quando riceve un’anima controlla sul suo
-                    registro la condotta che ha tenuto e poi prende la sua
-                    decisione.
-                  </p>
-                </div>
+      <!-- Kaioshin Il Sommo -->
+      <div class="col-12 col-md-4">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./media/personaggi/sommo.png" class="img-fluid rounded-start" alt="..." />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Kaioshin Il Sommo</h5>
+                <p class="card-text1">
+                  L’antenato di tutti i Kaiohshin, difatti si presenta come il
+                  Kaiohshin dell’est di 15 generazioni precedenti. Ha le
+                  caratteristiche fisiche che accumunano tutti i Kaiohshin
+                  anche se appare come un anziano ometto molto gracile. Il suo
+                  aspetto però non è dato dall’età ma è causa della fusione
+                  tramite gli orecchini Potara che ha fatto per errore con una
+                  vecchia strega.
+                </p>
               </div>
             </div>
           </div>
         </div>
+      </div>
 
-        <!-- Kaioshin Il Sommo -->
-        <div class="col-12 col-md-4">
-          <div class="card mb-3">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img
-                  src="./media/personaggi/sommo.png"
-                  class="img-fluid rounded-start"
-                  alt="..."
-                />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Kaioshin Il Sommo</h5>
-                  <p class="card-text1">
-                    L’antenato di tutti i Kaiohshin, difatti si presenta come il
-                    Kaiohshin dell’est di 15 generazioni precedenti. Ha le
-                    caratteristiche fisiche che accumunano tutti i Kaiohshin
-                    anche se appare come un anziano ometto molto gracile. Il suo
-                    aspetto però non è dato dall’età ma è causa della fusione
-                    tramite gli orecchini Potara che ha fatto per errore con una
-                    vecchia strega.
-                  </p>
-                </div>
+      <!-- Kaioshin dell'Est -->
+      <div class="col-12 col-md-4">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./media/personaggi/est.png" class="img-fluid rounded-start" alt="..." />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Kaioshin dell'Est</h5>
+                <p class="card-text1">
+                  Il suo nome è Shin ed è il Kaiohshin dell’Est. Diventa il
+                  Superiore dopo la morte di tutti gli altri Kaiohshin. È
+                  piccolo di statura, ha molti poteri come la possibilità di
+                  volare o la telecinesi, però non ha grandi abilità nel
+                  combattimento. Dopo che Gohan libera Kaiohshin il Sommo
+                  dalla sua prigionia dentro la spada Z fa coppia fissa con
+                  lui.
+                </p>
               </div>
             </div>
           </div>
         </div>
+      </div>
 
-        <!-- Kaioshin dell'Est -->
-        <div class="col-12 col-md-4">
-          <div class="card mb-3">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img
-                  src="./media/personaggi/est.png"
-                  class="img-fluid rounded-start"
-                  alt="..."
-                />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Kaioshin dell'Est</h5>
-                  <p class="card-text1">
-                    Il suo nome è Shin ed è il Kaiohshin dell’Est. Diventa il
-                    Superiore dopo la morte di tutti gli altri Kaiohshin. È
-                    piccolo di statura, ha molti poteri come la possibilità di
-                    volare o la telecinesi, però non ha grandi abilità nel
-                    combattimento. Dopo che Gohan libera Kaiohshin il Sommo
-                    dalla sua prigionia dentro la spada Z fa coppia fissa con
-                    lui.
-                  </p>
-                </div>
+      <!-- Dodoria -->
+      <div class="col-12 col-md-4">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./media/personaggi/dod.png" class="img-fluid rounded-start" alt="..." />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Dodoria</h5>
+                <p class="card-text1">
+                  Dodoria è un personaggio che compare in Dragon Ball Z ed è
+                  uno dei diretti servitori Freezer (insieme a Zarbon). È un
+                  alieno dalle forme molto rotondeggianti, ha la pelle
+                  completamente rosa e dalla testa e dalle braccia gli
+                  fuoriescono degli spuntoni. Indossa la tipica Armatura da
+                  Battaglia degli uomini di Freezer e lo Scouter su un occhio.
+                </p>
               </div>
             </div>
           </div>
         </div>
+      </div>
 
-        <!-- Dodoria -->
-        <div class="col-12 col-md-4">
-          <div class="card mb-3">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img
-                  src="./media/personaggi/dod.png"
-                  class="img-fluid rounded-start"
-                  alt="..."
-                />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Dodoria</h5>
-                  <p class="card-text1">
-                    Dodoria è un personaggio che compare in Dragon Ball Z ed è
-                    uno dei diretti servitori Freezer (insieme a Zarbon). È un
-                    alieno dalle forme molto rotondeggianti, ha la pelle
-                    completamente rosa e dalla testa e dalle braccia gli
-                    fuoriescono degli spuntoni. Indossa la tipica Armatura da
-                    Battaglia degli uomini di Freezer e lo Scouter su un occhio.
-                  </p>
-                </div>
-              </div>
+      <!-- zarbon -->
+      <div class="col-12 col-md-4 mb-5 pb-5">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./media/personaggi/zar.png" class="img-fluid rounded-start" alt="..." />
             </div>
-          </div>
-        </div>
-
-        <!-- zarbon -->
-        <div class="col-12 col-md-4 mb-5 pb-5">
-          <div class="card mb-3">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img
-                  src="./media/personaggi/zar.png"
-                  class="img-fluid rounded-start"
-                  alt="..."
-                />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Zarbon</h5>
-                  <p class="card-text1">
-                    È un personaggio che compare in Dragon Ball Z e insieme a
-                    Dodoria è il diretto servitore di Freezer. È un alieno e a
-                    differenza di Dodoria ha un aspetto molto terrestre, l’unica
-                    cosa che lo tradisce è il colore della pelle e dei capelli.
-                    In combattimento però può trasformarsi e in questo caso
-                    assume delle sembianze decisamente mostruose.
-                  </p>
-                </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Zarbon</h5>
+                <p class="card-text1">
+                  È un personaggio che compare in Dragon Ball Z e insieme a
+                  Dodoria è il diretto servitore di Freezer. È un alieno e a
+                  differenza di Dodoria ha un aspetto molto terrestre, l’unica
+                  cosa che lo tradisce è il colore della pelle e dei capelli.
+                  In combattimento però può trasformarsi e in questo caso
+                  assume delle sembianze decisamente mostruose.
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- fine container -->
-    <!-- fine parte Sofia-->
+  </div>
+  <!-- fine container -->
+  <!-- fine parte Sofia-->
 
-    <!-- Aggiunto Footer -->
-    <div class="container-fluid bg-dark fixed-bottom">
-      <footer class="my-1">
-        <ul
-          class="nav d-flex justify-content-center align-items-center border-bottom"
-        >
-          <li class="nav-item">
-            <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link px-2 text-body-secondary">Features</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link px-2 text-body-secondary">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link px-2 text-body-secondary">FAQs</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link px-2 text-body-secondary">About</a>
-          </li>
-        </ul>
-        <div class="d-flex align-items-center copyright justify-content-center">
-          <p class="text-body-secondary">&copy; 2024 Company, Inc</p>
-        </div>
-      </footer>
-    </div>
+  <!-- Aggiunto Footer -->
+  <div class="container-fluid bg-dark fixed-bottom">
+    <footer class="my-1">
+      <ul class="nav d-flex justify-content-center align-items-center border-bottom">
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-body-secondary">Youtube</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-body-secondary">FAQ</a>
+        </li>
+      </ul>
+      <div class="d-flex align-items-center copyright justify-content-center">
+        <p class="text-body-secondary">&copy; 2025 Lorenzo, Umberto, Marian & Sofia</p>
+      </div>
+    </footer>
+  </div>
+  </div>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

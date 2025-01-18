@@ -43,7 +43,16 @@
   height: calc(5 * 48px);
   padding-top: 0;
 }
-S .navbar .nav-link.show,
+
+/*piccolo fix al dropdown by mad*/
+ul.dropdown-menu{
+  position:relative;
+  top: -50px
+
+}
+
+
+.navbar .nav-link.show,
 .navbar .nav-link:hover {
   color: #d0f4f7;
   background-color: transparent;
@@ -69,7 +78,7 @@ S .navbar .nav-link.show,
 }
 
 .container__custom {
-  background: linear-gradient(transparent, #0173bc), url(/media/sfondo.jpg);
+  background: linear-gradient(transparent, #0173bc), url(./media/sfondo.jpg);
 }
 
 .section__1 div {
@@ -89,6 +98,32 @@ S .navbar .nav-link.show,
   background-color: #d0f4f7;
   border: #013a63 2px solid;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ------------- SOFIA --------------- */
 
@@ -119,7 +154,7 @@ h3 {
 }
 
 h1 {
-  font-size: 6rem;
+  font-size: 5rem;
 }
 
 h2 {
@@ -216,4 +251,24 @@ button a {
 /*OMBRA*/
 .my-shadow {
   box-shadow: 0 0 10px #d0f4f7;
+}
+
+.carousel-indicators img {
+  width: 30px;
+
+}
+.carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  height: 3px;
+  padding: 0;
+  margin-left: 30px;
+  background-color:transparent;
+margin-top: -50px;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  display: flex;
+}
+
+.carousel-indicators:active{
+  padding: 0;
 }
