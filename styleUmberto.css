@@ -28,18 +28,15 @@
 
 .dropdown-menu {
   background-color: #013a63;
-  height: 0;
   display: block;
-  /* border: 0; */
-  /* visibility: hidden; */
-  /* transform: translateY(-10px);
-  transition: all 0.2s ease; */
+  border: 0;
+  height: 0px;
+  overflow: hidden;
+  transition: all 0.3s;
 }
 
 .dropdown-menu.show {
-  /* visibility: visible; */
-  height: 10rem;
-  /* transform: translateY(0px); */
+  height: calc(5 * 40px);
   padding-top: 0;
 }
 
