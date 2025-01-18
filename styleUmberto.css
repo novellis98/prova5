@@ -10,16 +10,7 @@
 .nav-link {
   color: whitesmoke;
   text-transform: uppercase;
-<<<<<<< HEAD
-  font-weight: bold;
-  letter-spacing: 2px;
-}
-
-ul {
-  gap: 60px
-=======
   font-size: 1.3rem;
->>>>>>> 7dbf45fc221dc0dd1abf181be40a292e73ffd114
 }
 
 .header {
@@ -43,31 +34,16 @@ ul {
   background-color: #013a63;
   display: block;
   border: 0;
-<<<<<<< HEAD
-  visibility: hidden;
-
-}
-
-.dropdown-menu.show {
-  visibility: visible;
-  height: 10rem;
-=======
   height: 0px;
   overflow: hidden;
   transition: all 0.3s;
 }
 
 .dropdown-menu.show {
-<<<<<<< HEAD
-  height: calc(5 * 40px);
->>>>>>> ac2100d6ad8cf99c555d65d64594afd33c75519f
-=======
   height: calc(5 * 48px);
->>>>>>> 7dbf45fc221dc0dd1abf181be40a292e73ffd114
   padding-top: 0;
 }
-
-.navbar .nav-link.show,
+S .navbar .nav-link.show,
 .navbar .nav-link:hover {
   color: #d0f4f7;
   background-color: transparent;
@@ -132,15 +108,15 @@ h3 {
 }
 
 h1 {
-  font-size: 6rem
+  font-size: 6rem;
 }
 
 h2 {
-  font-size: 4rem
+  font-size: 4rem;
 }
 
 h3 {
-  font-size: 2rem
+  font-size: 2rem;
 }
 
 /* SCROLLBAR */
